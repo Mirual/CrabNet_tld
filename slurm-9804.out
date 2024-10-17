@@ -1,0 +1,50 @@
+Property "example_materials_property" selected for training
+
+Model architecture: out_dims, d_model, N, heads
+3, 512, 3, 4
+Running on compute device: cpu
+Model size: 11987206 parameters
+
+Generating EDM:   0%|          | 0/3393 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3393/3393 [00:00<00:00, 166257.08formulae/s]
+loading data with up to 3 elements in the formula
+training with batchsize 256 (2**8.000)
+Generating EDM:   0%|          | 0/727 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 727/727 [00:00<00:00, 201763.98formulae/s]
+loading data with up to 3 elements in the formula
+stepping every 14 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Epoch: 0/40 --- train mae: 32.7 val mae: 33.4
+Epoch: 1/40 --- train mae: 27.5 val mae: 28.1
+Epoch 3 failed to improve.
+Discarded: 1/3 weight updates ♻🗑️
+Epoch: 3/40 --- train mae: 28.4 val mae: 29
+Epoch: 5/40 --- train mae: 28.8 val mae: 29.5
+Epoch: 7/40 --- train mae: 20.1 val mae: 20.5
+Epoch: 9/40 --- train mae: 15 val mae: 15.7
+Epoch: 11/40 --- train mae: 13.7 val mae: 14.8
+Epoch: 13/40 --- train mae: 12.8 val mae: 13.9
+Epoch: 15/40 --- train mae: 11.9 val mae: 13.4
+Epoch 17 failed to improve.
+Discarded: 2/3 weight updates ♻🗑️
+Epoch: 17/40 --- train mae: 11.7 val mae: 13.5
+Epoch: 19/40 --- train mae: 10.9 val mae: 12.8
+Epoch: 21/40 --- train mae: 10.4 val mae: 12.3
+Epoch 23 failed to improve.
+Discarded: 3/3 weight updates ♻🗑️
+Epoch: 23/40 --- train mae: 10.1 val mae: 12.4
+Discarded: 3/3 weight updates, early-stopping now 🙅🛑
+Saving network (example_materials_property) to models/trained_models/example_materials_property.pth
+=====================================================
+              example_materials_property             
+=====================================================
+calculating train mae
+loading data with up to 3 elements in the formula
+example_materials_property mae: 10.1
+-----------------------------------------------------
+calculating val mae
+loading data with up to 3 elements in the formula
+example_materials_property mae: 12.1
+-----------------------------------------------------
+calculating test mae
+loading data with up to 3 elements in the formula
+example_materials_property mae: 11.3
+=====================================================
